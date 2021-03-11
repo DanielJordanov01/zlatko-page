@@ -13,7 +13,7 @@ body {
     background-size: cover;
 }
 
-/********REVIEWS*********/
+/********REVIEW STARS*********/
 .clip-star {
 	background: gold;
 	clip-path: polygon(50% 0%, 61% 35%, 98% 35%, 68% 57%, 79% 91%, 50% 70%, 21% 91%, 32% 57%, 2% 35%, 39% 35%);
@@ -22,14 +22,10 @@ body {
 	width: 2em;
 }
 
-.reviews {
-	height: 70vh;
-}
-
 /********HEADER**********/
 .header {
-    padding-top: 7%;
-    height: 100vh;
+    padding-top: 4rem;
+    padding-bottom: 8rem;
 }
 
 .header-text-content {
@@ -37,9 +33,10 @@ body {
     width: 40%;
 }
 
-/********Reviews**********/
+/********REVIEWS**********/
 .reviews {
-    height: 80vh;
+    padding-top: 4rem;
+    padding-bottom: 4rem;
 }
 
 .review-slideshow {
@@ -118,6 +115,21 @@ body {
     font-weight: 700 !important;
 }
 
+/********Help**********/
+.help-section {
+    padding-top: 4rem;
+    padding-bottom: 4rem;
+}
+
+.help-section .row {
+    background-color: #283742;
+    border-radius: 10px;
+    padding: 3rem 3.5rem;
+}
+
+.help-section p {
+    color: #A6ACB0;
+}
 
 @media only screen and (max-width: 768px) {
 
@@ -132,5 +144,13 @@ body {
 
     .review-card p {
         width: 80%;
+    }
+
+    .main-heading {
+        text-align: left;
+    }
+
+    .help-section .row {
+        padding: 10px 20px;
     }
 }
