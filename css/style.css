@@ -274,6 +274,65 @@ body {
         transform: rotate(126deg);
     }
 }
+
+
+/*****BOOK-CALL*****/
+.book-call {
+    padding-top: 4rem;
+}
+
+.book-call .heading {
+    font-weight: bold;
+    font-size: 2.5rem;
+}
+
+
+/****COACH-SESSION****/
+.coach-session {
+    padding-top: 4rem;
+    padding-bottom: 4rem;
+}
+
+.coach-session img {
+    width: 100%;
+}
+
+.coach-session h3 {
+    font-size: 2.5rem;
+}
+
+
+/*****COUNTERS******/
+
+.counters {
+    padding-top: 4rem;
+    padding-bottom: 4rem;
+}
+
+.counters span {
+    color: #007BFF;
+}
+
+.counters .count {
+    font-weight: bold;
+    font-size: 2.2rem;
+}
+
+.item__text {
+    font-weight: bold;
+    font-size: 1.4rem;
+}
+
+.counters .wrap {
+    margin-bottom: 2rem;
+}
+
+.counters h2 {
+    font-weight: bold;
+    font-size: 2.5rem;
+}
+
+
 @media only screen and (max-width: 990px){
     .progress{ margin-bottom: 20px; }
 }
