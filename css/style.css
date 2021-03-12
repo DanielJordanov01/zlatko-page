@@ -3,7 +3,7 @@
     margin: 0;
     padding: 0;
     font-size: 1rem;
-    font-style: 'Open Sans', sans-serif;
+    font-family: 'Open-Sans', sans-serif;
     letter-spacing: 1px;
 }
 
@@ -11,6 +11,11 @@ body {
     background-image: url('../imgs/bg.jpg');
     background-repeat: no-repeat;
     background-size: cover;
+}
+
+h1, h2, h3 {
+    font-weight: bold;
+    color: #002752;
 }
 
 /********REVIEW STARS*********/
@@ -129,6 +134,10 @@ body {
 
 .help-section p {
     color: #A6ACB0;
+}
+
+.main-heading {
+    color: #FFFF;
 }
 
 /********Effectiveness**********/
