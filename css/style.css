@@ -433,6 +433,10 @@ footer img {
 
 @media only screen and (max-width: 768px) {
 
+    body {
+        text-align: center;
+    }
+
     .header-text-content {
         width: 80%;
         margin: 10% auto;
