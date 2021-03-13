@@ -368,6 +368,10 @@ h1, h2, h3, h4 {
     padding-bottom: 4rem;
 }
 
+.common-issues .row {
+    padding-top: 2rem;
+}
+
 .card {
     border: 1px solid #e1ebf7;
     border-radius: 6px;
