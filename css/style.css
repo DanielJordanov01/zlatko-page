@@ -37,6 +37,7 @@ h1, h2, h3, h4 {
 }
 
 /********NAVBAR**********/
+
 .navbar-nav a{
     font-size: 1.1rem;
     margin: 0.6rem;
@@ -46,6 +47,14 @@ h1, h2, h3, h4 {
     width: 40%;
     border-radius: 50%;
 }
+
+.sticky {
+    position: fixed;
+    width: 100%;
+    background-color: #FFFF;
+    top: 0;
+    z-index: 1;
+  }
 
 /********HEADER**********/
 .header {
