@@ -414,6 +414,46 @@ h1, h2, h3, h4 {
     color: #FFFF;
 }
 
+/******CALL*********/
+.call {
+    padding-top: 4rem;
+    padding-bottom: 4rem;
+}
+
+.call .image img{
+    width: 100%;
+    border-radius: 10px;
+}
+
+.call h4 {
+    font-size: 1.4rem;
+    font-weight: 400;
+}
+
+.call ul {
+    list-style: none;
+}
+
+.call ul li {
+    font-size: 1.3rem;
+}
+
+.call .services span { 
+    background-color: #007BFF;
+    border-radius: 50%;
+    box-shadow: 0px 10px 30px -4px rgb(0, 0, 0 / 15%);
+}
+
+.call .services span i {
+    font-size: 1.5rem; 
+    margin: 1.5rem; 
+    color: #FFFF;
+}
+
+.call .services h4 {
+    font-weight: bold;
+}
+
 /******FOOOTER******/
 footer {
     padding-top: 4rem;
