@@ -482,6 +482,8 @@ footer .contact-row {
 }
 
 footer img {
+    width: 10%;
+    display: inline;
     border-radius: 50%;
 }
 
